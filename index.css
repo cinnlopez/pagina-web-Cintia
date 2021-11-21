@@ -45,6 +45,7 @@ nav>ul>li {
 }
 
 main{
+    margin-top: -4em;
     display:flex;
     padding-top: 3em;
     padding-bottom: 3em;
@@ -70,6 +71,7 @@ article {
    max-width: 100em ;
    font-size: 2em;
    display: inline-block;
+   margin-left: 8vw;
 }
 
 @media only screen and (min-widht: 768px){
@@ -106,27 +108,25 @@ article {
 }
 
 .banner{
-    display: flex;
+    display: inline-block;
     width: 25%;
     height: 45%;
     object-fit:cover;
-    float:left;
     margin: 0px 20px 0px 20px;
     margin-bottom: 1em;
-    margin-right: 1em;
 }
 
 .welcome{
-     font-size: 0.85em;
+     font-size: 1em;
      margin-top: 0.5em;
      margin-bottom: 0.2em;
      color: rgb(63, 63, 189);
-     text-align: center;
+     text-align: left;
 }
  
 p{
      font-size: 1em;
-     text-align: center;
+     text-align: left;
      margin-top: 0.5em;
      margin-bottom: 0.5em;
 }
@@ -160,6 +160,7 @@ h1{
      margin: 10px;
      background-color: rgb(247, 239, 238);
      border: solid 2px rgb(37,83,27);
+     box-sizing: border-box;
      color: rgb(37,83,27);
      float: left;
      margin: 0px 20px 0px 20px;
@@ -170,6 +171,10 @@ h1{
      height: 140px;
      object-fit:cover;
      display: inline-block;
+}
+
+.columns-desktop{
+    display:inline-block
 }
     
 .element-information{
@@ -239,8 +244,6 @@ input, textarea {
     margin-top: 10px;
     width: 62%;
 }
-
-
 
 
 
