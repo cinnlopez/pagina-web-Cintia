@@ -45,7 +45,6 @@ nav>ul>li {
 
 main{
     display:flex;
-    background-image: url("");
     padding-top: 3em;
     padding-bottom: 3em;
     min-height: 50%;
@@ -89,12 +88,14 @@ article {
     max-height: 130%;
     max-width: 130%;
     float:center;
+    margin-top:2.5em;
 }
 
 .logoContacto{
     max-height: 130%;
     max-width: 130%;
     float:center;
+    margin-top:2em;
 }
 
 .logoOrder{
