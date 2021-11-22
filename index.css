@@ -165,7 +165,6 @@ h1{
      color: rgb(37,83,27);
      float:left;
      margin: 0px 20px 0px 20px;   
-     
 }
 
 .flies{
@@ -174,6 +173,7 @@ h1{
      object-fit:cover;
      float: center;
      padding-left: 0.5em;
+     display:inline-flex;
 }
 
 .columns-desktop{
@@ -242,7 +242,8 @@ input, textarea {
     margin-top: 1em;
     margin: 10px;
     width: auto;
-    display: inline-block;
+    display: inline-flex;
+    position:relative;
 }
 
 .volver-a{
