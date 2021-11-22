@@ -163,33 +163,36 @@ h1{
      border: solid 2px rgb(37,83,27);
      box-sizing: border-box;
      color: rgb(37,83,27);
-     float: left;
-     margin: 0px 20px 0px 20px;
+     float:left;
+     margin: 0px 20px 0px 20px;   
+     
 }
 
 .flies{
      max-width: 120px;
-     max-height: 140px;
+     max-height: 120px;
      object-fit:cover;
-     display: inline-flex;
+     float: center;
+     padding-left: 0.5em;
 }
 
 .columns-desktop{
-    display:inline-block
+    display:inline-block;
 }
     
 .element-information{
      max-width: auto;
      justify-content: space-between;
+     float:center;
 }
 .element-information .title{
      font-weight:bold;
 }
 .element-information .price{
      text-align: left;
+     font-size: 0.8em;
 }
 .element button{
-     display: flex;
      background-color: rgb(37,83,27);;
      color: white;
      padding: 10px;
@@ -235,11 +238,11 @@ input, textarea {
     background-color:rgb(37,83,27);
     color:rgb(225,191,135);
     border-radius: 1em;
-    float: left;
     font-size: 0.5em;
     margin-top: 1em;
     margin: 10px;
     width: auto;
+    display: inline-block;
 }
 
 .volver-a{
