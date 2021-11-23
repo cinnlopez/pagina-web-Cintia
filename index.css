@@ -80,21 +80,21 @@ article {
 
 .logo-index{
     padding-top: 2em;
-    max-height: 160%;
-    max-width: 160%;
+    max-height: 200%;
+    max-width: 200%;
     float:center;
 }
 
 .logo-catalogo{
-    max-height: 130%;
-    max-width: 130%;
+    max-height: 150%;
+    max-width: 150%;
     float:center;
     margin-top:2.5em;
 }
 
 .logo-contacto{
-    max-height: 130%;
-    max-width: 130%;
+    max-height: 150%;
+    max-width: 150%;
     float:center;
     margin-top:2em;
 }
