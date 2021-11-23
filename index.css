@@ -41,7 +41,7 @@ nav>ul>li {
 .link-cata{
   color:rgb(37,83,27);
   padding-inline-start: 0.1em;
-  display: inline-block;
+  display: inline-flex;
 
 }
 
@@ -50,7 +50,6 @@ main{
     display:flex;
     padding-top: 3em;
     padding-bottom: 3em;
-    min-height: 50%;
 }
 
 footer{
@@ -69,7 +68,6 @@ aside {
 }
 
 article {
-   max-width: 100em ;
    font-size: 2em;
    display: inline-block;
    margin-left: 8vw;
@@ -81,15 +79,15 @@ article {
 }
 
 .logo-index{
-    padding-top: 0.5em;
+    padding-top: 2em;
     max-height: 160%;
     max-width: 160%;
     float:center;
 }
 
 .logo-catalogo{
-    max-height: 120%;
-    max-width: 150%;
+    max-height: 130%;
+    max-width: 130%;
     float:center;
     margin-top:2.5em;
 }
@@ -101,12 +99,7 @@ article {
     margin-top:2em;
 }
 
-.logo-order{
-    padding-top: 2em;
-    max-height: 150%;
-    max-width: 150%;
-    float:left; 
- }
+
 
 .banner{
     display: inline-block;
@@ -185,6 +178,7 @@ h1{
      justify-content: space-between;
      float:center;
 }
+
 .element-information .title{
      font-weight:bold;
 }
@@ -209,62 +203,78 @@ h1{
  /* ORDER */
 
 form{
-    display:inline-block;
-    padding: 0.5em;  
+    display:inline-flex;
+    padding: 0.3em;  
     border: 2px solid rgb(37,83,27);
     border-radius: 1em;
+    width:max-content;
+    max-width:70%;
+    height: 30%;
 }
 
+.logo-order{
+    float:left; 
+    width: 30vw;
+    padding-top: 2em;
+ }
+
 label{
-    text-align: right;
     font-size: 0.5em;
-    margin: 0.8em;
+    display: inline-flex;
 }
 
 .input-group1, .input-group2, .input-group3{
-    display:flex;
-    float:left;
-    margin-bottom: 0.5em;
+    display: inline-block;
+    margin: -10px 1px 10px 10px;
+    padding: 0.1em;
+}  
+
+input textarea {   
+    padding: 0.5em;
+    box-sizing: content-box;
 }
 
-input, textarea {   
-    padding: 0.5em;
-    margin-bottom: 0.5em;
-    font: 0.1em sans-serif;
-    box-sizing: border-box;
+input[type]{
+    font-size: 0.5em;
 }
 
 .pedido{
     background-color:rgb(37,83,27);
     color:rgb(225,191,135);
-    border-radius: 1em;
+    border-radius: 0.5em;
     font-size: 0.5em;
-    margin-top: 1em;
-    margin: 10px;
-    width: auto;
-    display: inline-flex;
-    position:relative;
+    height: 2em;
+    margin: 350px 10px 1px 10px;
+    margin-top: 20em;
+    align-self: flex-end;
+    position: relative;
+    float: left;
+    left:-70%;
+
 }
 
 .volver-a{
     background-color:rgb(37,83,27);
     color:rgb(225,191,135);
     border-radius: 0.5em;
-    font-size: 0.8em;
+    font-size: 0.6em;
     margin-top: 0.5em;
     margin-left: 0.5em;
-    width: 10em;
+    width: 9em;
+    height: 1.5em;
+    text-align: center;
+    display:flex;
 }
 
 .flies-order{
     max-width: 30%;
-    max-height: 30%
+    max-height: 30%;
 }
 
 .p-order{
     font-size: 1em;
     text-align: left;
-    margin-top: 1em;
+    margin-top: 0.3em;
 }
 
 
